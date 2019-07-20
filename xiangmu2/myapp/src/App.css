@@ -1,0 +1,186 @@
+*{
+  padding: 0;
+  margin:0;
+  list-style: none;
+  text-decoration: none;
+}
+html,body,#root{
+  width: 100%;
+  height: 100%;
+}
+.wrap{
+  width: 100%;
+  height: 100%;
+  background:url(../src//img//login-bg.04425a08.png) 100% 100%;
+}
+.zhong{
+  width:90%;
+  height: 80%;
+  display: flex;
+  margin:0 auto;
+
+}
+.left{
+  margin-top:150px;
+  margin-left: 300px;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.left h1{
+  font-size: 150px;
+  color:#fff;
+}
+.left span{
+  font-size: 20px;
+  color:#fff;
+  margin-top:50px;
+}
+.right{
+  width: 500px;
+  height: 700px;
+  background: #fff;
+  border-radius: 15px 15px 15px 15px;
+  margin-top:190px;
+  margin-left: 170px;
+}
+.hun{
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+ align-items: flex-end;
+}
+.hun dl{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top:200px;
+}
+.hun dl dd{
+  font-size: 20px;
+}
+.shu{
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.shu input{
+  width: 70%;
+  height: 40px;
+  border:0;
+  border-bottom: 1px solid #ccc;
+  
+  
+
+}
+.shu p{
+  width: 70%;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #ccc;
+  align-items: center;
+}
+.shu p input{
+  border:0;
+  outline: 0;
+  margin-bottom: 10px;
+
+}
+.shu p button{
+  width: 140px;
+  height: 40px;
+  background: #fff;
+  border:0;
+  margin-right:50px;
+  margin-bottom: 10px;
+ 
+}
+.deng{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:10px;
+}
+.deng button{
+  width: 70%;
+  height: 100%;
+  border-radius: 15px 15px 15px 15px;
+  background: #7B1AD9;
+  border:0;
+  outline: 0;
+  color:#fff;
+  font-size: 20px;
+  margin-bottom:20px;
+  
+}
+.warm{
+  
+  /* display: flex; */
+  margin-top:-55px;
+}
+
+.dian{
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top:30px;
+}
+.dian button {
+  width: 100px;
+  height: 40px;
+  background: #ccc;
+  border-radius: 15px 15px 15px 15px;
+  border:0;
+  outline: 0;
+  color:#000;
+}
+.dian button a{
+  color:#000;
+}
+.tou{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tou dl{
+  width: 60%;
+  height: auto;
+  margin-left: 60px;
+  margin-top:50px;
+}
+.tou dl dt img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.tou dl dd{
+  margin-top:30px;
+}
+.ziba{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.right{
+  width: 1000px;
+  height: 800px;
+  margin-top:-5px;
+  
+}
+
